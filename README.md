@@ -208,10 +208,13 @@ HTTP Request가 전송하는 데이터를 담고 있는 부분. 전송하는 데
     ```java
     예)
     content-type: application/x-www-form-urlencoded;
-    	subject=%EC%A0%9C%EB%AA%A9&content=%EC%95%99
-    	
+    	subject=%EC%A0%9C%EB%AA%A9&content=%EC%95%99 = 16 진수
+    	URL 인코딩
+
+    참고) 
     	content-type: application/json
-    	  {"subject" : "...", "content" : "..."}
+        ("키": "값","키": "값")
+    {"subject" : "...", "content" : "..."}
     ```
     
 - PUT(POST 일종) : 서버의 자원을 요청에 들어 있는 자원으로 치환하고자 할 때 사용합니다. 요청의 본문에 치환할 데이터를 넣어 보냅니다.
