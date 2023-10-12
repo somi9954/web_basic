@@ -217,7 +217,7 @@ HTTP Request가 전송하는 데이터를 담고 있는 부분. 전송하는 데
     {"subject" : "...", "content" : "..."}
     ```
     
-- PUT(POST 일종) : 서버의 자원을 요청에 들어 있는 자원으로 치환하고자 할 때 사용합니다. 요청의 본문에 치환할 데이터를 넣어 보냅니다.
+- PUT(POST 일종) : 서버의 자원을 요청에 들어 있는 자원으로 치환하고자 할 때 사용합니다. 요청의 본문에 치환할 데이터를 넣어 보냅니다. 
 - PATCH(POST 일종) : 서버 자원의 일부만 수정하고자 할 때 사용합니다. 요청의 본문에 일부 수정할 데이터를 넣어 보냅니다.
 - DELETE (GET방식): 서버의 자원을 삭제하고자 할 때 사용합니다. 요청의 본문에 데이터를 넣지 않습니다.
 - OPTIONS : 요청(GET,POST)을 하기 전에 통신 옵션을 설명하기 위해 사용합니다.
@@ -240,4 +240,4 @@ HTTP Request가 전송하는 데이터를 담고 있는 부분. 전송하는 데
 
 참고: https://velog.io/@rlawogks2468/%EC%BF%BC%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A7%81Query-String%EC%9D%B4%EB%9E%80
 
-참고: https://github.com/yonggyo1125
+참고: https://github.com/yonggyo1125 - 강사님의 자료를 기준으로 하였습니다.
